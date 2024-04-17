@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.otp-title {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: 50px;
+}
+.otp-box {
+  text-align: center;
+  margin-top: 40px;
+}
+.otp-input-box {
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+  border-radius: 10px;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 10px 5px rgb(54, 49, 59);
+}
+
+
+
+/* all devices responsiveness */
+@media (max-width: 425px) {
+  .otp-title {
+    font-size: 55px;
+  }
+  .otp-input-box {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: 5px 5px rgb(54, 49, 59);
+  }
+}
