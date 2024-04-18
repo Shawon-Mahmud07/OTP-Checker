@@ -6,14 +6,18 @@
 body {
   background-color: rgb(0, 0, 0);
 }
+.otp-checker-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .otp-title {
-  text-align: center;
   font-size: 100px;
   color: white;
   margin-top: 50px;
 }
 .otp-box {
-  text-align: center;
   margin-top: 40px;
 }
 .otp-input-box {
@@ -25,10 +29,37 @@ body {
   text-align: center;
   box-shadow: 10px 5px rgb(54, 49, 59);
 }
+.generated-otp-text {
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+}
+.validation-text.success {
+  border: 1px solid green;
+  border-radius: 5px;
+  color: green;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.validation-text.fail {
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  margin-top: 30px;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
+#otp-expires-id{
+  color: white;
+  font-size: 30px;
+  margin-top: 70px;
+}
 
-
-/* all devices responsiveness */
+/* mobile responsiveness */
 @media (max-width: 425px) {
   .otp-title {
     font-size: 55px;
@@ -41,4 +72,18 @@ body {
     font-size: 25px;
     box-shadow: 5px 5px rgb(54, 49, 59);
   }
+  .generated-otp-text {
+    font-size: 20px;
+  }
+  .validation-text.success {
+    font-size: 20px;
+  }
+  .validation-text.fail {
+    font-size: 20px;
+  }
+  #otp-expires-id{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+}
 }
