@@ -56,6 +56,9 @@ function expireOTP() {
   const intervalID = setInterval(function () {
     if (result) {
       otpExpireElement.innerText = "";
+      document.getElementById(
+        "generated-otp"
+      ).innerText = "";
       return;
     }
     else {
