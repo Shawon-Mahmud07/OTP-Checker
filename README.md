@@ -17,4 +17,4 @@ This is a simple project using plain JavaScript, HTML, and raw CSS. It's an appl
 
 ## Website
 
-Visit our website for more information: [https://otp-checker.netlify.app/](otp-checker.netlify.app)
+Visit website : [https://otp-checker.netlify.app/](otp-checker.netlify.app)
